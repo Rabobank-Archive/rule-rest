@@ -2,8 +2,8 @@ package services
 
 import javax.inject.{Inject, Singleton}
 
-import org.scalarules.facts.Fact
-import org.scalarules.utils.Glossary
+import nl.rabobank.rules.dsl.core.glossaries.Glossary
+import nl.rabobank.rules.facts.Fact
 import play.api.{Configuration, Logger}
 
 @Singleton
