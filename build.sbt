@@ -6,10 +6,10 @@
 useGpg := false
 
 lazy val commonSettings = Seq(
-  organization := "org.scala-rules",
-  organizationHomepage := Some(url("https://github.com/scala-rules")),
-  homepage := Some(url("https://github.com/scala-rules/rule-rest")),
-  version := "0.0.9-SNAPSHOT",
+  organization := "nl.rabobank.rules",
+  organizationHomepage := Some(url("https://github.com/rabobank-nederland")),
+  homepage := Some(url("https://github.com/rabobank-nederland/rule-rest")),
+  version := "0.1.0-SNAPSHOT",
   scalaVersion := "2.11.8",
   scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-Xlint", "-Xfatal-warnings")
 ) ++ staticAnalysisSettings ++ publishSettings
@@ -21,7 +21,7 @@ lazy val ruleRest = (project in file("."))
   .settings(commonSettings: _*)
   .settings(
     name := "rule-rest",
-    description := "Scala Rules REST Service",
+    description := "Rabo Rules REST Service",
     libraryDependencies ++= dependencies
   )
   .enablePlugins(PlayScala, UniversalDeployPlugin)
@@ -29,13 +29,13 @@ lazy val ruleRest = (project in file("."))
 
 // *** Dependencies ***
 
-lazy val scalaRulesVersion = "0.5.1"
+lazy val raboRulesVersion = "0.6.0"
 lazy val scalaTestVersion = "3.0.0"
 lazy val jodaTimeVersion = "2.4"
 lazy val jodaConvertVersion = "1.8"
 
 lazy val dependencies = Seq(
-  "org.scala-rules" %% "rule-engine" % scalaRulesVersion,
+  "nl.rabobank.rules" %% "rule-engine" % raboRulesVersion,
   "joda-time" % "joda-time" % jodaTimeVersion,
   "org.joda" % "joda-convert" % jodaConvertVersion,
   "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
@@ -113,8 +113,8 @@ lazy val pom =
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@github.com:scala-rules/rule-rest.git</connection>
-    <developerConnection>scm:git:git@github.com:scala-rules/rule-rest.git</developerConnection>
-    <url>git@github.com:scala-rules/rule-rest.git</url>
+    <connection>scm:git:git@github.com:rabobank-nederland/rule-rest.git</connection>
+    <developerConnection>scm:git:git@github.com:rabobank-nederland/rule-rest.git</developerConnection>
+    <url>git@github.com:rabobank-nederland/rule-rest.git</url>
   </scm>
   

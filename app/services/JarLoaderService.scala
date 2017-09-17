@@ -5,9 +5,9 @@ import java.util.jar.{JarEntry, JarFile}
 import javax.inject.{Inject, Singleton}
 
 import controllers.conversion.JsonConversionsProvider
-import org.scalarules.dsl.nl.grammar.Berekening
-import org.scalarules.service.dsl.BusinessService
-import org.scalarules.utils.Glossary
+import nl.rabobank.rules.dsl.core.glossaries.Glossary
+import nl.rabobank.rules.dsl.nl.grammar.Berekening
+import nl.rabobank.rules.service.dsl.BusinessService
 import play.api.Configuration
 
 import scala.collection.JavaConverters._

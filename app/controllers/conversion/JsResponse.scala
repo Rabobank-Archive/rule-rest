@@ -1,8 +1,8 @@
 package controllers.conversion
 
 import controllers.conversion.Converter._
-import org.scalarules.engine._
-import org.scalarules.facts.Fact
+import nl.rabobank.rules.engine._
+import nl.rabobank.rules.facts.Fact
 import play.api.libs.json.JsObject
 
 trait ResponseJsObject {

@@ -1,7 +1,7 @@
 package controllers
 
-import org.scalarules.derivations.Derivation
-import org.scalarules.engine._
+import nl.rabobank.rules.derivations.Derivation
+import nl.rabobank.rules.engine._
 
 object RulesRunner {
   def run(context: Context, derivations: List[Derivation]): Context = FactEngine.runNormalDerivations(context, derivations)

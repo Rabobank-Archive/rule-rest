@@ -1,8 +1,8 @@
 package controllers.conversion
 
-import org.scalarules.engine.Context
-import org.scalarules.facts.Fact
-import org.scalarules.finance.nl._
+import nl.rabobank.rules.engine.Context
+import nl.rabobank.rules.facts.Fact
+import nl.rabobank.rules.finance.nl._
 import play.api.data.validation.ValidationError
 import play.api.libs.json._
 
