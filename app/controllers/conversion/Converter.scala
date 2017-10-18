@@ -2,8 +2,8 @@ package controllers.conversion
 
 import controllers.conversion.ImplicitConversions.contextReads._
 import controllers.conversion.ImplicitConversions.contextWrites._
-import nl.rabobank.rules.engine._
-import nl.rabobank.rules.facts.Fact
+import nl.rabobank.oss.rules.engine._
+import nl.rabobank.oss.rules.facts.Fact
 import play.api.data.validation.ValidationError
 import play.api.libs.json._
 

@@ -4,9 +4,9 @@ import javax.inject.Inject
 
 import controllers.conversion._
 import controllers.conversion.Converter._
-import nl.rabobank.rules.engine.{Context, FactEngine}
-import nl.rabobank.rules.facts.Fact
-import nl.rabobank.rules.service.dsl.BusinessService
+import nl.rabobank.oss.rules.engine.{Context, FactEngine}
+import nl.rabobank.oss.rules.facts.Fact
+import nl.rabobank.oss.rules.service.dsl.BusinessService
 import play.api.data.validation.ValidationError
 import play.api.libs.json._
 import play.api.mvc.{Action, Controller, Request, Result}

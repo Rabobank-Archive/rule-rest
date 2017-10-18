@@ -1,6 +1,6 @@
 package controllers
 
-import nl.rabobank.rules.facts.Fact
+import nl.rabobank.oss.rules.facts.Fact
 import play.api.libs.json.{JsObject, JsResult, JsValue}
 
 package object conversion {

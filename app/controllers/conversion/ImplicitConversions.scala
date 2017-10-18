@@ -1,8 +1,8 @@
 package controllers.conversion
 
-import nl.rabobank.rules.engine.Context
-import nl.rabobank.rules.facts.Fact
-import nl.rabobank.rules.finance.nl._
+import nl.rabobank.oss.rules.engine.Context
+import nl.rabobank.oss.rules.facts.Fact
+import nl.rabobank.oss.rules.finance.nl._
 import play.api.data.validation.ValidationError
 import play.api.libs.json._
 

@@ -2,7 +2,7 @@ package services
 
 import javax.inject.{Inject, Singleton}
 
-import nl.rabobank.rules.service.dsl.BusinessService
+import nl.rabobank.oss.rules.service.dsl.BusinessService
 import play.api.Configuration
 
 @Singleton
