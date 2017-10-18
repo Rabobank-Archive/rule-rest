@@ -2,8 +2,8 @@ package services
 
 import javax.inject.{Inject, Singleton}
 
-import nl.rabobank.rules.dsl.core.glossaries.Glossary
-import nl.rabobank.rules.facts.Fact
+import nl.rabobank.oss.rules.dsl.core.glossaries.Glossary
+import nl.rabobank.oss.rules.facts.Fact
 import play.api.{Configuration, Logger}
 
 @Singleton

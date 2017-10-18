@@ -2,8 +2,8 @@ package services
 
 import javax.inject.{Inject, Singleton}
 
-import nl.rabobank.rules.derivations.Derivation
-import nl.rabobank.rules.dsl.nl.grammar.ElementBerekening
+import nl.rabobank.oss.rules.derivations.Derivation
+import nl.rabobank.oss.rules.dsl.nl.grammar.ElementBerekening
 import play.api.{Configuration, Logger}
 
 @Singleton
